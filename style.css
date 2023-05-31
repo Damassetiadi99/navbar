@@ -1,10 +1,136 @@
-html,body {
+html,
+body {
     padding: 0;
+    margin: 0;
 }
 
+#hero {
+    background-image:url(../images/bg-lautan.jpg);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+
+}
+
+.container {
+    width: 450px;
+    height: 400px;
+    /* background-color: lightpink; */
+}
+
+.hero-title {
+    font-size: 64px;
+    color: #355C80;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.hero-content {
+    font-size: 16px;
+    color: #0A0A0A;
+    text-align: center;
+    font-weight: 400px;
+    font-family: 'inter', sans-serif;
+    line-height: 24px;
+}
+
+.wrapper-form {
+    /* background-color: lightsalmon; */
+    width: 277px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:28px;
+}
+
+.wrapper-form button {
+    width: 100%;
+    background-color: #355C80;
+    border-width: 0;
+    color: #ffff;
+    font-size: 14px;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.wrapper-form input {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-width: 0;
+    outline: none;
+    margin-top: 15px;
+
+}
+
+#about {
+    height: 500px;s
+
+}
+
+.about-title {
+    font-size: 30px;
+    color: black;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.wrapper-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #EEF6F8;
+    width: 255px;
+    height: 165px;
+    border-radius: 8px;
+    font-family: 'inter', sans-serif;
+    padding: 6px 20px;
+    box-sizing: border-box;
+}
+.card h4{
+font-size: 21px;
+font-weight: 400;
+text-align: center;
+}
+.card p {
+    font-size: 13px;
+    font-weight: 400;
+  height 20px; 
+}
+
+.footer{
+    background-color: blue;
+
+ padding-top: 6px;
+ padding-bottom: 6px;
+ border-top-width: 1px;
+ border-top: solid;
+}    
+.footer p {
+    font-size: 16px;
+    text-align:center;
+    font-family: 'inter',sans-serif;
+
+}
+.navbar{ 
+    background-color:greenyellow;
+
+
+}
 .navbar ul {
     display: flex;
-    justify-content:last baseline;
+    justify-content:space-between;
     list-style: none;
     margin: 0;
 }
@@ -16,11 +142,11 @@ html,body {
     padding: 10px 26px;
     display: block;
 
-} 
-.container {
-    /* background-color: antiquewhite; */
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
+}
+.navbar ul li a:hover{
+    background-color:rgb(21, 21,226);
+    color: #ffff;
+}
+.active{
+    font-weight: 700;
 }
