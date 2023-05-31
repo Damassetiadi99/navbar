@@ -1,0 +1,26 @@
+html,body {
+    padding: 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content:last baseline;
+    list-style: none;
+    margin: 0;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #355C80;
+    font-family: 'inter',sans-serif;
+    padding: 10px 26px;
+    display: block;
+
+} 
+.container {
+    /* background-color: antiquewhite; */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
